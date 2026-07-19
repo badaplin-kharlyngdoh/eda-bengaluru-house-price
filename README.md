@@ -58,16 +58,23 @@ Key Insights & Visual Summary
 
 ## Key Insights
 
-*
-* 
-* 
-* 
-* 
+* Cunningham Road commands a 292% premium over the city median price per sqft (₹20,336 vs ₹5,182).
+* Affordable localities like Chandapura and Bommasandra sit near ₹2,700-2,900/sqft  roughly half the city median.
+* Total sqft is the strongest single predictor of price (correlation: 0.79), ahead of bathroom count (0.52).
+* Bathroom count and BHK are highly correlated (0.85), a useful note for avoiding redundant features in future modeling.
+* Price distribution is heavily right-skewed most homes are under ₹100L, with a small number of luxury listings pulling the tail past ₹2,900L.
 
 ---
 ## Visual Analysis
 
-
+![Price Distribution](images/price_distribution.png)
+![Price per Sqft Distribution](images/price_per_sqft_distribution.png)
+![BHK Count](images/bhk_countplot.png)
+![Top Expensive Localities](images/top_expensive_localities.png)
+![Top Affordable Localities](images/top_affordable_localities.png)
+![Price vs Sqft](images/price_vs_sqft.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
+![Price by BHK](images/price_by_bhk.png)
 
 Key visuals include price distribution (with log transform), top/bottom localities by price per sqft, and a correlation heatmap of numeric features.
 
